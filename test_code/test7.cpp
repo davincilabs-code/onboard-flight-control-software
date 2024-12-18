@@ -190,7 +190,6 @@ struct PIDController {
     float filtered_derivative; // 필터링된 미분 항
     float alpha;               // 필터 계수
 
-    // outlimit 설정 400->10로 기본 세팅
     PIDController(float p, float i, float d, float ff = 0.0f, float i_limit = 10.0f, float out_limit = (PWM_MAX - PWM_MIN)*0.1f, float filter_alpha = 0.1f)
         : kp(p), ki(i), kd(d), feedforward(ff), prev_error(0.0f), integral(0.0f),
           integral_limit(i_limit), output_limit(out_limit), filtered_derivative(0.0f), alpha(filter_alpha) {}
