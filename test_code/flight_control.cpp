@@ -3,7 +3,7 @@
 #include "gps_sensor.h"
 #include "imu_sensor.h"
 #include <iostream>
-#include <termios.h> // B115200 보드레이트 상수 정의를 위해 필요
+#include <termios.h> // B115200 보드레이트 상수 정의를 위해 필요.
 
 // 모든 장치를 초기화하는 함수
 void flight_control_init() {
