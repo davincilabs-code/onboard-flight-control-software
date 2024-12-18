@@ -61,6 +61,7 @@ public:
         }
         reset();
         setPWMFreq(50);  // Set frequency to 50Hz for motor control
+        // setPWMFreq(100);
         initializeMotors(); // 모든 모터를 초기 안전 PWM 값으로 설정
     }
 
