@@ -17,7 +17,7 @@ PIDController pitch_pid(0.1f, 0.01f, 0.05f);
 PIDController yaw_pid(0.2f, 0.01f, 0.1f);
 
 // PoseEstimator 객체 생성
-PoseEstimator poseEstimator;  // pose_estimator 초기화
+PoseEstimator poseEstimato;  // pose_estimator 초기화
 
 // IMU 캘리브레이션 오프셋 값
 const float offsetX = 0.12407f;
