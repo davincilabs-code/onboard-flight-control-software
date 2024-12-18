@@ -8,7 +8,7 @@
 const int PWM_MIN = 215;
 const int PWM_MAX = 410;
 
-// PID 제어기 클래스 정의
+// PID 제어기 클래스 정의함
 class PIDController {
 public:
     PIDController(float kp, float ki, float kd)
